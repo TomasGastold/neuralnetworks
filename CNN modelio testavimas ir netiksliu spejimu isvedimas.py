@@ -11,7 +11,7 @@ def resizeimage(x):
         plotis, aukštis = img.size
 
         img = img.resize((28, 28))
-        print("Paveikslėlio", x, "dydis pakeistas į 28x28")
+        print("Paveikslo", x, "dydis pakeistas į 28x28")
         img.save(x)
     except IOError:
         pass
